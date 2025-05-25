@@ -10,3 +10,5 @@ A simple web-based age calculator that takes the user's Date of Birth and displa
 - Calculates and displays age in years, months, and days.
 - Validates input and prevents future dates.
 - Styled with modern dark mode UI.
+- 
+1. Clone the repository:
