@@ -12,3 +12,4 @@ A simple web-based age calculator that takes the user's Date of Birth and displa
 - Styled with modern dark mode UI.
 - 
 1. Clone the repository:https://github.com/Rajdeepry/CodeAlpha_AgeCalculator.git
+2.  Open `AGE.html` in your browser.
