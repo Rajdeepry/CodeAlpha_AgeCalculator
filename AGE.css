@@ -1,0 +1,69 @@
+/* Base Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Dark Background and Centering */
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background-color: #121212;
+  color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+/* Container Styling */
+.container {
+  background-color: #1e1e1e;
+  padding: 40px;
+  border-radius: 16px;
+  box-shadow: 0 0 20px rgba(0, 255, 150, 0.2);
+  text-align: center;
+  width: 90%;
+  max-width: 400px;
+  transition: all 0.3s ease-in-out;
+}
+
+.container:hover {
+  box-shadow: 0 0 25px rgba(0, 255, 150, 0.4);
+}
+
+/* Input and Button Styling */
+input[type="date"], button {
+  padding: 12px;
+  margin: 15px 0;
+  width: 100%;
+  font-size: 16px;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  transition: all 0.2s ease-in-out;
+}
+
+/* Input Date Field */
+input[type="date"] {
+  background-color: #2e2e2e;
+  color: #fff;
+  border: 1px solid #555;
+}
+
+input[type="date"]:focus {
+  border: 1px solid #00ffa2;
+  background-color: #333;
+}
+
+/* Button with Glow Effect */
+button {
+  background: linear-gradient(135deg, #00ffa2, #00c4ff);
+  color: #000;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #00ffa2;
+}
+
+button:hover {
+  background: linear-gr
